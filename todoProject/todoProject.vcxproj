@@ -86,11 +86,12 @@
     <QtRcc Include="todoProject.qrc" />
     <QtUic Include="todoProject.ui" />
     <QtMoc Include="todoProject.h" />
-    <ClCompile Include="taskClass.cpp" />
+    <ClCompile Include="formMethods.cpp" />
     <ClCompile Include="todoProject.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="Form.h" />
     <ClInclude Include="Task.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
