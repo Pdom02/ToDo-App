@@ -14,21 +14,6 @@
    <string>todoProject</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QWidget" name="verticalLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>0</y>
-      <width>160</width>
-      <height>341</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QListView" name="taskView"/>
-     </item>
-    </layout>
-   </widget>
    <widget class="QFrame" name="decisionFrame">
     <property name="geometry">
      <rect>
@@ -84,16 +69,6 @@
      </property>
     </widget>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>600</width>
-     <height>22</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
